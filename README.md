@@ -141,13 +141,13 @@ iris.sample(10)
      Variety:      Categórico - Nominal
     
 
-<b> b. O conjunto de dados é univariado ou multivariado?
+<b> b. O conjunto de dados é univariado ou multivariado? </b>
     
 Multivariado, pois cada objeto tem cinco atributos.
     
 
 <b> c. Verifique a necessidade de balanceamento dos dados e caracterize estatisticamente os
-dados
+dados. </b>
     
  Não há necessidade de balanceamento, pois os objetos estão igualmente distribuidos (50 objetos para cada espécie) do atributo "Variety" (setosa, versicolor e virginica). 
     
@@ -155,7 +155,7 @@ dados
 
 
 <b> d. Analise os dados quanto à sua incompletude, inconsistências, redundâncias e presença
-de ruído;
+de ruído. </b>
 
 
 Com o método <b>describe()</b> podemos gerar uma tabela com informações resumidas por atributo do banco de dados para análise.
@@ -275,7 +275,7 @@ plt.show()
 
     Presença de ruído: A partir do gráfico de dispersão para esse par de atributos, é possivel identificar alguns objetos mais afastados da concentração maior da sua mesma "Variety". Com isso, há indícios de dados ruidosos mas não podemos afirmar com certeza.
 
-<b> e. Promova uma transformação de dados consistente com o banco sob análise
+<b> e. Promova uma transformação de dados consistente com o banco sob análise. </b>
 
 Transformação de dados categóricos para dados numéricos:
     
